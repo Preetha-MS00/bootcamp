@@ -1,45 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>/*internal property*/
+        <style>/*internal property*/
 		#preetha
 		{
 			background-color:grey;
-			color:brown;
+			color:white;
 			border-style:outset;
-			border-color:red;
+			border-color:white;
 		}
-		h3.pink{border-style:outset;border-color:brown;color:red;}
-	</style>
+		h3.pink{background-color:grey;/*class*/
+			color:white;
+			border-style:outset;
+			border-color:white;
+				}
+					/**{
+				     background-color:brown;universal selector
+					 }*/
+/*					 	h2,h3{border-color:black;text-decoration:underline;}grouping property
+*/
+						div{
+							padding: 15px 50px 25px 100px;
+						}
+    	</style>
 </head>
-	<body style="background-color:white"><!-- background color -->
+	    <body style="background-color:white"><!-- background color -->
 		<h1 style="color:brown">PREETHA MOHAN</h1>
 		<h4>Mentor Ambitious Listner</h4>
-<img src= "C:\Users\preetha\Desktop\html\preetha.jpg" width="200" height="250">
+        <img style="border-style:outset; border-color:brown;" src= "C:\Users\preetha\Desktop\html\preetha.jpg" width="160" height="160">
+        <div>
 		<h4 id="preetha">DOB:15-04-1999</h4>
-		<h3 class="pink"><b>Education</b></h3>
-		<h4 style="color:orange;border-style:dashed;"><strong>Rajiv Gandhi Institute Of Technology Kottayam</strong></h2><!-- dashed border -->
-		<h5><strong>B-Tech Computer Science</strong><h5/>
+	    </div>
+		<h3 style="border-style:outset;color:brown;"><b>Education</b></h3>
+		<p><strong>Rajiv Gandhi Institute Of Technology Kottayam</strong></p>
+		<h5>B-Tech Computer Science<h5/>
 		<h5>2018-2022</h5>
-<br>
-		<h3 style="color:orange;border:brown;border-style:outset"><b>Certifications</b></h3><!-- inline property -->
-<ul>
-	<font color="brown"><!-- Text color -->
-			<li> Internet Of Things Certified by Coursera</li>
-			<li>Artificial Intelligence Certified by Coursera</li>
-	</font>		
-</ul>
-<br>
-		<h3 style="color:red;border:green;border-style:outset"><b>Extra Curricular Activities</b></h3><!-- outset border -->
-<ul> 
-			<li>Volunteer in ISTE </li>
-			<li> Volunteer in NSS</li>
-			<li>Volunteered in Nature Club</li>
-			<li> Volunteered in Womencell</li>
-</ul>
-<br>
+        <br>
+        <div>
+		<h3 id="preetha"><b>Certifications</b></h3><!-- selector -->
 
-<a href="https://www.linkedin.com/in/preetha-mohan-2467b31b8">Linked In Account</a>
+				<ul>
+					<font color="black"><!-- Text color -->
+					<li> Internet Of Things Certified by Coursera</li>
+					<li>Artificial Intelligence Certified by Coursera</li>
+					</font>		
+				</ul>
+			</div>
+				<br>
+						<h3 style="color:brown;border-style:outset"><b>Extra Curricular Activities</b></h3><!-- outset border -->
+							<ul> 
+								<li>Volunteer in ISTE </li>
+								<li> Volunteer in NSS</li>
+								<li>Volunteered in Nature Club</li>
+								<li> Volunteered in Womencell</li>
+							</ul>
+							<br>
+
+<div>
+	 
+<h3 class="pink">Languages</h3>
+	<ul>
+		<li>English</li>
+		<li>Malayalam</li>
+		<li>Hindi</li>
+	</ul>
+</div>
+<a href="https://www.linkedin.com/in/preetha-mohan-2467b31b8">Linked In Profile</a>
 
 </body>
 </html>
